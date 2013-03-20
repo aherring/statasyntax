@@ -270,6 +270,11 @@ cd "C:\Users\an-lih\Dropbox\YouthTruth\2012-13 YouthTruth\Data\Data Checking\R3 
 
 clear
 
+
+use "pythontestdata(R2)_school.dta", clear
+sort School_Short
+save "pythontestdata(R2)_school_cleaned.dta"
+
 use "pythontestdata(R2)_school.dta", clear
 sort School_Short
 save "pythontestdata(R2)_school_cleaned.dta"
